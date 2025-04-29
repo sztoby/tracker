@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: flask-tracker
+    name: tarcker
     env: python
     plan: free
     buildCommand: ""
