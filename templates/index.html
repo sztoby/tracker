@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Link Tracking</title>
+	</head>
+	<body>
+		<h1>Click the links below to track your awareness:</h1>
+		<ul>
+			<li>
+				<a href="{{ url_for('track_click', link='cybersecurity-awareness') }}"
+					>Cybersecurity Awareness</a
+				>
+			</li>
+			<li>
+				<a href="{{ url_for('track_click', link='phishing-awareness') }}"
+					>Phishing Awareness</a
+				>
+			</li>
+			<li>
+				<a href="{{ url_for('track_click', link='secure-passwords') }}"
+					>Secure Passwords</a
+				>
+			</li>
+		</ul>
+	</body>
+</html>
